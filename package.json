@@ -1,0 +1,9 @@
+{
+    "name": "hyper-commands",
+    "version": "0.0.1",
+    "description": "run predefined commands plugin for hyper",
+    "main": "index.js",
+    "repository": "https://github.com/edonet/hyper-commands.git",
+    "author": "edonet <edonet@163.com>",
+    "license": "MIT"
+}
