@@ -45,10 +45,10 @@ function middleware(store) {
                 command.assign(action.config.commands);
                 break;
             case 'UI_COMMAND_EXEC':
-                if (action.command === 'runCommand') {
+                if (action.command === 'commands:run') {
                     command.pick();
-                } else if (action.command.startsWith('runCommand:')) {
-                    command.run(action.command.slice(11), store);
+                } else if (action.command.startsWith('commands:run:')) {
+                    command.run(action.command.slice(13), store);
                 }
                 break;
             default:
